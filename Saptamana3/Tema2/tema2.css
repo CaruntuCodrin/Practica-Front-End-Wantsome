@@ -1,0 +1,81 @@
+.sec1 {
+    
+    display: flex;
+    padding: 10px 10px 0 10px;
+
+    
+}
+
+.element1 {
+
+    border: solid green;
+    color: maroon;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 35px;
+    font-size: 15px;
+    background-color: lightcyan;
+    
+}
+
+.nav-wrapper {
+    position: relative;
+    margin: 0px;
+    display: grid;
+    display: inline;
+}
+
+.element2 {
+    border: solid salmon;
+    position: relative;
+    display: grid;
+    padding: 0px;
+    background-color: lightskyblue;
+    
+  
+}
+
+.element2-containers {
+    position: relative;
+}
+
+
+
+.paragraf1 {
+    border: solid yellow;
+    position: relative;
+    color: midnightblue;
+    margin: 0px;
+    padding: 10px;
+    
+}
+
+.paragraf2 {
+    border: solid yellow;
+    color: magenta;
+    position: static;
+    margin: 0px;
+    padding: 10px;
+
+   
+}
+
+.paragraf3 {
+    border: solid yellow;
+    position: static;
+    color: rgb(29, 7, 7);
+    top: 0px;
+    margin: 0px;
+    padding: 10px;
+   
+}
+    
+    
+.sec2 { 
+   border: solid black;
+   padding-left: 15px;
+   }
+
+
+
