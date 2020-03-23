@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole-page {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+     "box1 box1 box3 box3 box5 box5"
+     "box2 box2 box3 box3 box5 box5"
+     "box4 box4 box4 box4 box5 box5"
+     "box4 box4 box4 box4 box5 box5"
+    ;
+    height: 100vh;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-top: 20px;
+    
+    
+}
+
+
+.box1 {
+    background-color: rgb(141, 235, 227);
+    grid-area: box1;
+    position: relative;
+    padding: 10px;
+
+}
+
+.box2 {
+    background-color: rgb(224, 224, 129);
+    grid-area: box2;
+    position: relative;
+    padding: 10px;
+}
+
+.box3 {
+    background-color: rgb(78, 78, 175);
+    grid-area: box3;
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px;
+    
+}
+
+.picture {
+    
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    
+}
+
+ img {
+    width: 100%;
+}
+
+.box4 {
+    background-color: rgb(153, 42, 70);
+    grid-area: box4;
+    position: relative;
+    padding: 10px;
+}
+
+.box5 {
+    background-color: rgb(110, 197, 110);
+    grid-area: box5;
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+p {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
